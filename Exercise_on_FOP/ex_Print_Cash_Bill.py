@@ -12,6 +12,7 @@ item_with_rate['Coffe'] = 10.00
 
 
 def read_item_info():
+    """Reads the input data from user."""
     ordered = {}
     new_item = "y"
     while new_item.lower() == "y":     # Allows 'y' or 'Y'
